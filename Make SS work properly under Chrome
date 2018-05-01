@@ -1,0 +1,16 @@
+# Method1: Check extensions in Chrome:
+ # open extensions
+ # unable " Unblock Boundary|Unblock youku Bilibili xiami " 
+ # unable " Unblock Youku "
+ 
+# Method 2: Clear DNS in Win:
+ # open cmd command
+ # input " ipconfig /displaydns " to see the dns list
+ # input " ipconfig /flushdns " to clear dns
+
+# Method 3: Clear DNS in Chrome:
+ # open Chrome
+ # input " chrome://net-internals/#dns " in the searching bar
+ # click " clean host cache "
+
+# All done! Run SS and restart Chrome again!
